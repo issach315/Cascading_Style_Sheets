@@ -1,0 +1,21 @@
+.p1
+{
+    background-color: rgb(137, 186, 186);
+    color: black;
+    display: block;
+    visibility: visible;
+}
+.p2
+{
+    color: rgb(12, 30, 121);
+    background-color: beige;
+    display: block;
+    visibility:hidden;/* content is hidden */
+}
+.p3
+{
+    color: crimson;
+    background-color: rgb(244, 223, 198);
+    display: none;/* content is not there*/
+    visibility:visible;
+}
