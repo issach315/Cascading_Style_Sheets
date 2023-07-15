@@ -1,0 +1,42 @@
+h1{
+    color:rgba(255, 0, 0, 0.487);
+    background-color: bisque;
+    text-align: center;
+}
+
+.p1
+{
+    /* RGB (Red, Green, Blue) */
+    color: rgb(143,123, 245);
+}
+.p2
+{
+   /* HSL (Hue, Saturation, Lightness) */
+    color: hsl(120, 92%, 36%);
+}
+.p3
+{
+    /* RGB (Red, Green, Blue,alpha) */
+    color: rgba(6, 101, 156,0.7);
+}
+.p4
+{
+    /* HWB (Hue, Whiteness, Blackness) */
+    color: hwb(30 2% 11%);
+}
+.p5
+{
+    /* HWB (Hue, Whiteness, Blackness ,alpha) */
+    color: hsla(225, 69%, 34%, 0.8);
+}
+.p6
+{
+    /*  color name direct */
+    color: red;
+}
+.p7
+{
+    /* hexadecimal  */
+    color: #15ee94b2;
+
+}
