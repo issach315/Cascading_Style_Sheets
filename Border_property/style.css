@@ -1,0 +1,16 @@
+h1
+{
+    color: brown;
+    background-color: beige;
+    text-align: center;
+    font-size: large;
+}
+
+div
+{
+    color: aqua;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border:3px red dashed;
+}
