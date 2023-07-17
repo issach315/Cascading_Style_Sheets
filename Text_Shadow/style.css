@@ -1,0 +1,13 @@
+h1
+{
+    color:black;
+    text-shadow: 2px 2px 4px  rgb(220, 213, 4),
+                -2px -2px 4px rgb(253, 0, 0);
+
+            /*  text-shadow: Horizontal-Displacement Vertical-Displacement Blur-Radius  Color */
+}
+h2{
+    color: blue;
+    text-shadow: 2px 2px 2px yellow;
+    background-color:black;
+}
