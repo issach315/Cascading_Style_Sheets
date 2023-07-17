@@ -1,0 +1,56 @@
+h1
+{
+    color: darkred;
+    background-color: burlywood;
+    border-radius: 5px;
+    height: auto;
+    font-size: 40px;
+}
+
+
+a{
+    color: forestgreen;
+}
+a:visited
+{
+    color: darkviolet;
+}
+a:hover,a:focus         
+{
+    color: brown;
+    font-size: 25px;
+    background-color: bisque;
+
+}
+a:active
+{
+    color: deeppink;
+}
+
+#p1::after
+{
+    content: "❤️";
+
+}
+#p2::first-letter
+{
+    color:brown;
+    font-size:  45px;
+    
+}
+#p3::before
+{
+   content:"🧑‍💻";
+}
+
+#p4::selection 
+{
+    background-color: black;
+    font-style: italic;
+    color: azure;
+}
+#p5::first-line ,#p5::after
+{
+    color: darkorchid;
+    content: " ABC";
+}
