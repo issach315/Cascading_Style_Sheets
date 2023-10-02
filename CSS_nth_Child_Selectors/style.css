@@ -3,3 +3,61 @@ h1{
     background-color: bisque;
 }
 
+
+dt{
+
+    font-weight:bold;
+
+}
+
+/********
+
+:nth-child(an + b)
+:first-child
+:last-child
+:nth-last-child(b)
+:first-of-type
+:last-of-type
+:nth-of-type(an + b)
+:nth-last-of-type(b)
+
+********/
+
+/* 
+ul li:first-child{
+
+    color:brown;
+} */
+/* li:last-child{
+    color:blue;
+} */
+/* body p:last-of-type{
+
+    color:chocolate;
+} */
+
+body p:first-of-type{
+
+    font-size: 20px;
+    color:darkgreen;
+}
+
+/* ul li:nth-last-child(even){
+
+//mostly used in the table commponents for applyinh the differece btw in colums and rows.
+
+    color:deeppink;
+} */
+
+
+/* dd:nth-last-of-type(5n){
+//The :nth-last-of-type() CSS pseudo-class matches elements based on their position among siblings of the same type (tag name), counting from the end.
+    color:mediumorchid
+} */
+
+dd:nth-of-type(2n + 1){
+
+    border: 2px solid green;
+}
+
+
