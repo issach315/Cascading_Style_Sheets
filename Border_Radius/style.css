@@ -19,17 +19,17 @@ h1{
     padding-top: 30px;
     padding-left: 30px;
     font-size:50px ;
-   /* 
+   
     border: 4px blue solid;
-    border-radius: 20px;
-    border-radius: 20px 30px 40px 50px;
+    /* border-radius: 20px;
+    border-radius: 20px 30px 40px 50px; */
     border-radius:   20px / 100px 200px ;  
     
-    */
-    border-top-left-radius: 40px;
+   
+    /* border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px; */
     
 
 }

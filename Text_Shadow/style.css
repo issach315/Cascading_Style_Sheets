@@ -8,6 +8,6 @@ h1
 }
 h2{
     color: blue;
-    text-shadow: 2px 2px 2px yellow;
-    background-color:black;
+    text-shadow: 2px 2px 2px hwb(0 1% 0%);
+    background-color:rgb(175, 163, 57);
 }
