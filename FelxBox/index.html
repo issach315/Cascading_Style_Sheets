@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*The flex container becomes flexible by setting the display property to flex*/
+        .flex-container1 > div{
+            background-color:aliceblue;
+            margin: 10px;
+            padding:20px;
+            font-size: 30px;
+            width: 100px;
+            line-height:50px;
+            text-align: center;
+        }
+ /*
+
+            The flex container properties are:
+
+            -flex-direction
+            -flex-wrap
+            -flex-flow
+            -justify-content
+            -align-items
+            -align-content
+
+*/
+        .flex-container1{
+
+            display: flex;
+            background-color: dodgerblue;
+
+           /*The column value stacks the flex items vertically (from top to bottom): */
+            flex-direction: column;
+
+            /*The row value stacks the flex items horizontally (from left to right):*/
+            flex-direction: row;
+
+            /*The column-reverse value stacks the flex items vertically (but from bottom to top):*/
+            flex-direction: column-reverse;
+
+            /*The row-reverse value stacks the flex items horizontally (but from right to left)*/
+            flex-direction: row-reverse;
+        }
+
+
+
+        .flex-container2 >div{
+
+            background-color:aliceblue;
+            margin: 10px;
+            padding:20px;
+            font-size: 30px;
+            width: 100px;
+            line-height:50px;
+            text-align: center;
+        }
+        .flex-container2{
+            width: 100%;
+            background: #a61717;
+            display: flex;
+            flex-wrap: wrap;
+            /*The nowrap value specifies that the flex items will not wrap (this is default):*/
+            flex-wrap: nowrap;
+            /*The wrap-reverse value specifies that the flexible items will wrap if necessary, in reverse order:*/
+            flex-wrap: wrap-reverse;
+        }
+
+
+ .flex-container3 >div{
+                background-color:aliceblue;
+                margin: 10px;
+                padding:20px;
+                font-size: 30px;
+                width: 100px;
+                line-height:50px;
+                text-align: center;
+        }
+
+        .flex-container3{
+            background: rgb(32, 28, 28);
+            display: flex;
+            /*The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.*/
+            flex-flow: column wrap;
+
+            
+        }
+
+
+        /*justify-content*/
+
+        .flex-container4 > div{
+            background-color:aliceblue;
+                margin: 10px;
+                padding:20px;
+                font-size: 30px;
+                width: 100px;
+                line-height:50px;
+                text-align: center;
+
+        }
+        .flex-container4{
+
+            display: flex;
+            background-color: cadetblue;
+            /* justify-content: center; */
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            justify-content: space-evenly;
+        }
+
+
+
+
+        /* allign content 
+        .flex-container5 > div{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+        .flex-container5{
+            background-color: darkseagreen;
+            display: flex;
+            height: 60px;
+            flex-wrap: wrap;
+            align-content: space-between; */
+            /* align-content: baseline; */
+            /* align-content: space-around; */
+            /* align-content: end; */
+            /* align-content: start; */
+            /* align-content: stretch; */
+            /* align-content: center; */
+            /* align-content: flex-start; */
+            /* align-content: flex-end;
+        } */
+
+        /*flex-grow*/
+
+       
+
+        #main {
+            width: 350px;
+            height: 100px;
+            border: 1px solid #000000;
+            display: flex;
+            }
+
+        #main div:nth-of-type(1) {
+            flex-grow: 1;
+        }
+        #main div:nth-of-type(2) {
+            flex-grow: 5;
+        }
+        #main div:nth-of-type(3) {
+            flex-grow: 1;
+        }
+        #main div:nth-of-type(4) {
+            flex-grow: 1;
+        }
+        #main div:nth-of-type(5) {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Flex-direction property : </h1>  
+    <div class="flex-container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <h1>The flex-wrap property : - specifies whether the flex items should wrap or not. </h1>  
+    <div class="flex-container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+    </div>
+    <br>
+
+
+    <h1>The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. </h1>  
+    <div class="flex-container3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+    </div>
+   
+
+    <br>
+
+
+    <h1>justify-content </h1>
+    <div class="flex-container4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+    </div>
+
+    <h1>The align-items Property</h1>
+    <div class="flex-container5">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+    </div>
+
+
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, natus quisquam maiores recusandae, sapiente voluptatem, iusto reiciendis ducimus architecto dignissimos nemo libero laboriosam optio ab ex repudiandae autem qui doloribus.</p>
+
+   </div>
+
+    <div id="main">
+        <div style="background-color:coral;"></div>
+        <div style="background-color:lightblue;"></div>
+        <div style="background-color:khaki;"></div>
+        <div style="background-color:pink;"></div>
+        <div style="background-color:lightgrey;"></div>
+      </div>
+
+</body>
+</html>
