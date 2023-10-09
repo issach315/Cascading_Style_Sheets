@@ -1,0 +1,50 @@
+.container{
+    width: 550px;
+    border: 2px solid black;
+    margin: 50px;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.red
+{
+    background-color: red;
+    position: static;/*it does not allow to modify*/
+    left:100px;
+   
+}
+.green{
+
+    background-color: green;
+    position: relative;/*it will follow the parent element*/
+
+}
+.yellow{
+
+    background-color:yellow;
+    position: absolute;
+    left: 100px;
+    bottom:200px;
+    
+   
+
+}
+.purple{
+    
+    background-color:purple;
+    position: fixed;/*it can not follow the parent elemet and global element*/
+    top: 100px;
+    right: 100px;
+
+
+}
+.tomato{
+   
+    background-color: tomato;
+    position: sticky;
+    top: 120px;
+    
+
+}
