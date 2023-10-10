@@ -8,6 +8,6 @@ h1
     width: 200px;
     height: 200px;
     background-color:rgba(34, 139, 34, 0.733);
-    box-shadow: 3px 3px 3px rgb(0, 0, 0) , -3px -3px 3px rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px rgb(145, 12, 12) , -3px -3px 3px rgb(17, 8, 179);
 /*  same has the text shadow property */
 }
